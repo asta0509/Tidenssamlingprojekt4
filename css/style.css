@@ -1,0 +1,156 @@
+html {
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+body {
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    float: left;
+    background-color: #000000;
+}
+
+#header-image {
+    height: 150px;
+    width: 100%;
+    float: left;
+    background-image: url("../images/logotidenssamling.png");
+    background-size: auto 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    padding: 10px 0 10px 0;
+}
+
+nav div {
+    text-align: center;
+}
+
+nav div a {
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: background-color 0.2s linear;
+}
+
+nav div a:hover {
+    background-color: #FBEFD8;
+}
+
+
+#main-container {
+    width: 100%;
+    padding: 10px;
+    float: left;
+    background-color: #000000;
+}
+
+.sub-container {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    color: #FFFFFF;
+}
+.sub-container-image {
+    float: left;
+    width: 100%;
+    margin: 20px 0 30px 5px;
+}
+
+.sub-container p, .sub-container h1, .sub-container h2 {
+    font-family: Verdana;
+    padding: 0 10px 0 10px;
+    
+}
+.sub-container h1, sub-container h2 {
+    text-transform: uppercase;
+}
+
+.sub-container h2 {
+    font-size: 100%;
+}
+
+.sub-container p {
+    line-height: 1.5;
+    font-size: 80%;
+}
+
+.image-container {
+    width: 100%;
+    float: left;
+    padding: 0 10px 0 10px;
+    margin-top: 3%;
+}
+
+.left-sub-container {
+    width: 50%;
+    float: left;
+    align-content: center;
+    margin-top: 3%;
+    
+
+}
+
+.right-sub-container {
+    width: 50%;
+    float: left;
+    margin-top: 3%;
+    
+}
+
+.prices-container {
+    width: 80%;
+    float: left;
+    margin: 0 10% 0 10%;
+    margin-top: 24px;
+}
+.prices-container h3 {
+    width: 100%;
+    float: left;
+    font-family: Verdana;
+}
+.prices-container span {
+    width: 50%;
+    float: left;
+    padding: 10px 0 10px 0;
+    font-family: Verdana;
+}
+
+
+.nyheder {
+    width: 98%;
+    float: left;
+}
+
+.socialmedia a img, .copy {
+    height: 40px;
+    margin-left: 1%;
+    color: #FFFFFF;
+    
+}
+
+
+
+footer {
+    height: 130px;
+    width: 100%;
+    float: left;
+    background-color: #000000;
+    margin-top: 20px;
+}
